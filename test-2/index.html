@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="circle_1"></div>
+    <div class="calculator">
+        <div class="calculator__output"><input type="text" id="inputBox"></div>
+        <div class="calculator__keys"> <!-- Corrected class name here -->
+            <button class="calculator__key calculator__key--spacial numbers" id="clear" data-value="AC">Ac</button>
+            <button class="calculator__key calculator__key--spacial" data-value="Del">Del</button>
+            <button class="calculator__key calculator__key--operator " data-value="/">/</button>
+            <button class="calculator__key calculator__key--operator multi" data-value="*">*</button>
+            <button class="calculator__key numbers" data-value="7">7</button>
+            <button class="calculator__key numbers" data-value="8">8</button>
+            <button class="calculator__key numbers" data-value="9">9</button>
+            <button class="calculator__key calculator__key--operator"data-value="-">-</button>
+            <button class="calculator__key numbers"data-value="4">4</button>
+            <button class="calculator__key numbers"data-value="5">5</button>
+            <button class="calculator__key numbers"data-value="6">6</button>
+            <button class="calculator__key calculator__key--operator plus"data-value="+">+</button>
+            <button class="calculator__key numbers"data-value="1">1</button>
+            <button class="calculator__key numbers"data-value="2">2</button>
+            <button class="calculator__key numbers"data-value="3">3</button>
+            <button class="calculator__key calculator__key--enter"data-value="=">=</button>
+            <button class="calculator__key numbers zero"data-value="0">0</button>
+            <button class="calculator__key numbers dot" data-value=".">.</button>
+        </div>
+    </div>
+    <div class="circle_2"></div>
+    <script src="script.js"></script>
+</body>
+</html>
